@@ -29,13 +29,11 @@ export const About = () => (
   <section id="about" className="wrap sec two">
     <div>
       <Head title="About Me" />
-      <p>I'm a BCA student from Nepal learning to build complete web applications. I enjoy the moment a form in the browser turns into a saved record in the database.</p>
-      <p>I work with React.js on the front end, and Node.js, Express.js, MongoDB and Mongoose on the back end. Right now I'm improving how I structure APIs and handle authentication. My goal is to grow into a developer who ships production-ready applications.</p>
-      <p className="muted">TODO: rewrite this in your own words.</p>
+      <p className="about-text">I’m a BCA student from Nepal with a strong interest in technology and web development. I have a good foundation in the MERN stack and enjoy building modern and user-friendly web applications. Along with web development, I have a basic understanding of digital marketing, I’m learning graphic designing, and I also enjoy teaching and sharing my knowledge with others. I’m a curious and self-motivated learner who believes in continuously improving my skills through learning, practice, and real-world projects. My goal is to grow as a versatile developer and use my technical and creative skills to build useful digital solutions.</p>
     </div>
     <div className="facts">
       <Photo />
-      {[['Location', 'Nepal'], ['Education', 'BCA'], ['Focus', 'Full-stack web development'], ['Backend', 'Node.js + Express.js'], ['Database', 'MongoDB + Mongoose']].map(([k, v]) => (
+      {[['Location', 'Nepal'], ['Education', 'BCA'], ['Focus', 'Full-stack development'], ['Backend', 'Node.js + Express.js'], ['Database', 'MongoDB + Mongoose']].map(([k, v]) => (
         <div className="card" key={k}><span className="muted">{k}</span><b>{v}</b></div>))}
     </div>
   </section>

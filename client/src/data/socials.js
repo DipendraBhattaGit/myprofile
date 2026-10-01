@@ -1,11 +1,10 @@
 export const socials = {
-whatsapp: '+9779866108306',
-email: 'bhattakrish78@gmail.com',
-github: 'https://github.com/DipendraBhattaGit',
-linkedin: 'https://www.linkedin.com/in/dipendra-bhatta-60a018294/',
-instagram: 'https://www.instagram.com/dipendrabhatta27/?hl=en',
-facebook: 'https://www.facebook.com/Krish.Bhatta.27/',
-email: 'bhattakrish78@gmail.com',
+  whatsapp: '+9779866108306',
+  email: 'bhattakrish78@gmail.com',
+  github: 'https://github.com/DipendraBhattaGit',
+  linkedin: 'https://www.linkedin.com/in/dipendra-bhatta-60a018294/',
+  instagram: 'https://www.instagram.com/dipendrabhatta27/?hl=en',
+  facebook: 'https://www.facebook.com/Krish.Bhatta.27/',
 };
 
 export const waMessage =
